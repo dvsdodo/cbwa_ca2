@@ -17,8 +17,8 @@ http://localhost:8080
 
 # DigitalOcean
 
-The Digital Ocean is the service taht you can store your web aplication, data bases and stoge datas. This is a good option to use with a good price, like you can use a container with 1 repository free and you can inpruve it until 20/month with unlimited repositories but with 100 GiB of store with you want to more space you need to pay more for it.
-The Digital Ocean also can offer:
+Oceano Digital is the service where you can store your web application, databases and stored data. This is a good option to use with a good price as you can use a container with 1 repository free and you can inpruve it up to 20/month with unlimited repositories but with 100 GiB of store with you want more space you need to pay more for that.
+The Digital Ocean can also offer:
 - Compute: Droplets, Kubernetes, App Platform
 - Storage: Spaces Object Storage, Volumes Bolck Storage
 - Networking: Virtual Private Cloud, Cloud Firewalls
