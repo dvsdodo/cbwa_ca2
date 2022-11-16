@@ -1,0 +1,2 @@
+# The .dockerignore file is the tool, that can help you to define the Docker build context you really need. Using this file, you can specify ignore rules and exceptions from these rules for files and folder, that won’t be included in the build context and thus won’t be packed into an archive and uploaded to the Docker server.
+node_modules
