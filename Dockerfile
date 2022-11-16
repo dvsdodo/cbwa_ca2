@@ -25,3 +25,13 @@ RUN npm run build --prod
 
 # Open server nginx and alpine to service
 FROM nginx:alpine
+# This tells Docker your webserver will listen on port 80 for TCP connections since TCP is the default. 
+EXPOSE 80
+
+RUN rm -rf /usr/share/nginx/html/*
+
+# Create a user called static to secure running commands in the image build and container runtime processes
+#USER static
+
+# Copy app files into /usr/share/nginx/html
+COPY --from=build /app/mobdev_ca3-main/www/ /usr/share/nginx/html/
