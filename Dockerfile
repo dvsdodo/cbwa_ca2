@@ -14,3 +14,14 @@ RUN wget https://github.com/dvsdodo/mobdev_ca3/archive/main.tar.gz \
 # Change workdir
 WORKDIR /app/mobdev_ca3-main/
 
+# Install the Ionic with npm
+RUN npm install -g ionic
+
+# Install NPM dependencies and devDependencies
+RUN npm install
+
+# Build App
+RUN npm run build --prod
+
+# Open server nginx and alpine to service
+FROM nginx:alpine
