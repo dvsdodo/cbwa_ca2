@@ -6,14 +6,20 @@ Davsion Ferreira de Queiros
 # Usage
 Build image:
 
+```sh
 docker build -t cbwa-ca2-davison .
+```
 
 Run Image by port 8080:
 
+```sh
 docker run -it --rm -p 8080:80 cbwa-ca2-davison
+```
 
 Browser:
+```sh
 http://localhost:8080
+```
 
 # DigitalOcean
 
